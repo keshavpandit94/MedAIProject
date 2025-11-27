@@ -108,14 +108,3 @@ npm run dev
 
 **Contributing**
 - Add issues and PRs describing changes. For backend changes, include unit tests where possible and keep dependency updates minimal and documented.
-
-**Next Steps / Suggestions**
-- Add a small `README_BACKEND.md` and `README_FRONTEND.md` inside respective folders with more detailed agent configuration and environment variables. Consider adding a Dockerfile for reproducible local setup.
-
----
-
-If you'd like, I can also:
-- Add a `Backend/README.md` with agent-specific config examples.
-- Create a simple `.env.example` in `Backend/` and a `docker-compose.yml` to run frontend + backend together.
-
-Let me know which of these you'd like next.
