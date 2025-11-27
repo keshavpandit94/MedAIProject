@@ -42,7 +42,8 @@ const ReportHistoryItem = ({ report, currentReport, onClick, onDelete }) => (
 export default function ReportReader() {
   const navigate = useNavigate();
   const AGENT_NAME = "AI Report Analyst";
-  const BACKEND_URL = "http://127.0.0.1:5001/analyze_reports"; // Define backend URL
+  // const BACKEND_URL = "http://127.0.0.1:5001/analyze_reports"; // Define backend URL
+  const BACKEND_URL = "https://medaiproject.onrender.com/analyze_reports"; // Define backend URL
 
   // UPDATED: Initial reports array now contains only one item named "Report Analysis"
   const initialReports = [

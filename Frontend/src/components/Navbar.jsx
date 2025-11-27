@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 // Import useLocation for dynamic active state
 import { Link, useLocation } from "react-router-dom"; 
-import { ChevronDown, Menu, X, Bot } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
+import logo from "../assets/Image/logo.png";
 
 export default function Navbar() {
   const [desktopDropdown, setDesktopDropdown] = useState(false);
@@ -109,8 +110,9 @@ export default function Navbar() {
                 style={{ color: "#EAEFEF" }}
                 onClick={() => handleLinkClick('/')}
             >
-                <Bot size={24} className="text-sky-400" />
-                Med<span className="text-sky-400">AI</span>
+                <img src={logo} alt="MedAI" className="w-6 h-6 rounded-full object-cover" />
+
+                <span className="ml-2">Med<span className="text-sky-400">AI</span></span>
             </h1>
 
             {/* Desktop Menu */}

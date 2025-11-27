@@ -114,7 +114,8 @@ export default function AIAgentPrescriptionChat() {
     const navigate = (path) => console.log(`Navigating to: ${path}`);
     
     const AGENT_NAME = "Prescription Analyst";
-    const BACKEND_URL = `http://127.0.0.1:5001/analyze_prescription`; 
+    // const BACKEND_URL = `http://127.0.0.1:5001/analyze_prescription`; 
+    const BACKEND_URL = `https://medaiproject.onrender.com/analyze_prescription`; 
     // const API_BASE_URL is now defined implicitly in BACKEND_URL 
 
     const initialReports = [

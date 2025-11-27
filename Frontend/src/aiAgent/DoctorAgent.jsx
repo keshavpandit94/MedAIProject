@@ -6,7 +6,8 @@ import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 // Assuming we are running this front-end in a separate environment from the backend API,
 // we define the backend URL here. Adjust if the port changes.
-const API_BASE_URL = "http://localhost:5001";
+// const API_BASE_URL = "http://localhost:5001";
+const API_BASE_URL = "https://medaiproject.onrender.com";
 const AGENT_NAME = "Doctor AI 🩺";
 
 // Helper for localStorage persistence
