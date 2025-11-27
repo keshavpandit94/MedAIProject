@@ -54,7 +54,7 @@ export function Footer() {
                     </div>
 
                     {/* 4. Contact Info (Takes 2 columns on mobile, 1 on desktop) */}
-                    <div className="col-span-2 md:col-span-1 space-y-3">
+                    {/* <div className="col-span-2 md:col-span-1 space-y-3">
                         <h5 className="font-semibold text-lg text-white mb-2">Reach Out</h5>
                         <ul className="space-y-2 text-sm">
                             <li className="flex items-center space-x-2">
@@ -71,7 +71,7 @@ export function Footer() {
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Bottom Section: Copyright and Legal Links */}
                 <div className="pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-slate-400">
