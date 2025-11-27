@@ -202,7 +202,7 @@ export default function Navbar() {
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/contact"
                   className="px-4 py-2 rounded-full transition-colors font-medium"
@@ -213,7 +213,7 @@ export default function Navbar() {
                 >
                   Contact
                 </Link>
-              </li>
+              </li> */}
             </ul>
 
             {/* Mobile Hamburger */}
@@ -309,7 +309,7 @@ export default function Navbar() {
                     About
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     to="/contact"
                     className="block px-4 py-2 rounded-full transition-colors hover:bg-[#7F8CAA33]"
@@ -318,7 +318,7 @@ export default function Navbar() {
                   >
                     Contact
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           )}
