@@ -70,8 +70,8 @@ export function Footer() {
                                 <span>San Francisco, CA</span>
                             </li>
                         </ul>
-                    </div>
-                </div> */}
+                    </div>*/}
+                </div> 
 
                 {/* Bottom Section: Copyright and Legal Links */}
                 <div className="pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-slate-400">
